@@ -41,7 +41,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="113"/>
+            <point key="canvasLocation" x="-259" y="104"/>
+        </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="ab1-8m-8ou">
+            <objects>
+                <viewController restorationIdentifier="AlertViewController" storyboardIdentifier="AlertViewController" id="mnC-kh-0xu" customClass="AlertViewController" customModule="ProgressBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pui-Dj-Cau">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8t-9F-DLg">
+                                <rect key="frame" x="20" y="323" width="374" height="250"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="BqI-di-ghd"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLq-vP-pwM">
+                                <rect key="frame" x="188" y="635" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Close"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nnC-mn-ibl" firstAttribute="trailing" secondItem="Q8t-9F-DLg" secondAttribute="trailing" constant="20" id="1Bg-YX-cBi"/>
+                            <constraint firstItem="Q8t-9F-DLg" firstAttribute="centerX" secondItem="pui-Dj-Cau" secondAttribute="centerX" id="NX6-a7-gbK"/>
+                            <constraint firstItem="Q8t-9F-DLg" firstAttribute="centerY" secondItem="pui-Dj-Cau" secondAttribute="centerY" id="S0z-ar-6pv"/>
+                            <constraint firstItem="Q8t-9F-DLg" firstAttribute="leading" secondItem="nnC-mn-ibl" secondAttribute="leading" constant="20" id="ner-EZ-MPH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nnC-mn-ibl"/>
+                    </view>
+                    <connections>
+                        <outlet property="btClose" destination="KLq-vP-pwM" id="XrK-Sg-JYH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkq-QX-ruO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="105"/>
         </scene>
     </scenes>
 </document>

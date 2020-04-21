@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var btAnimate: UIButton!
     
+    
     var higherValue:Float = 100
     
     override func viewDidLoad() {
@@ -22,6 +23,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btAnimate(_: Any){
+        let view = self.storyboard?.instantiateViewController(withIdentifier: "AlertViewController") as! AlertViewController
+        view.modalPresentationStyle = .overCurrentContext
+        self.present(view, animated: false) {
+            
+        }
         print("Start animate")
         self.higherValue -= 5
         if(self.higherValue > -5){

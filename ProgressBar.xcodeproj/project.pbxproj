@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FAED186244F4A1A000DF12F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAED185244F4A1A000DF12F /* AlertViewController.swift */; };
 		4FF532B4244DF0DF00246BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF532B3244DF0DF00246BAC /* AppDelegate.swift */; };
 		4FF532B6244DF0DF00246BAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF532B5244DF0DF00246BAC /* SceneDelegate.swift */; };
 		4FF532B8244DF0DF00246BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF532B7244DF0DF00246BAC /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FAED185244F4A1A000DF12F /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		4FF532B0244DF0DF00246BAC /* ProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF532B3244DF0DF00246BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF532B5244DF0DF00246BAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				4FF532BC244DF0E500246BAC /* Assets.xcassets */,
 				4FF532BE244DF0E500246BAC /* LaunchScreen.storyboard */,
 				4FF532C1244DF0E500246BAC /* Info.plist */,
+				4FAED185244F4A1A000DF12F /* AlertViewController.swift */,
 			);
 			path = ProgressBar;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				4FF532B8244DF0DF00246BAC /* ViewController.swift in Sources */,
 				4FF532B4244DF0DF00246BAC /* AppDelegate.swift in Sources */,
 				4FF532B6244DF0DF00246BAC /* SceneDelegate.swift in Sources */,
+				4FAED186244F4A1A000DF12F /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
